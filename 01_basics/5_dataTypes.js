@@ -29,3 +29,24 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// copy mil rhi hai
+let youtubeName = "abc xyz"
+let otherName = youtubeName
+console.log(otherName);
+
+// reference
+let user = {
+    email : "user@google.com",
+    upi : "user 1" 
+}
+
+let userTwo = user
+
+userTwo.email = "hitest@google.com"
+
+console.log(userTwo.email);
+console.log(user.email);
+
